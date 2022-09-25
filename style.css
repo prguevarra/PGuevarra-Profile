@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+
+}
+
+body div {
+    flex: 1;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+ul, li {
+    list-style: none;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+.header,
+.section-one {
+    display: flex;
+    background-color: hsl(215deg 28% 17%);
+    padding: 0px 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+
+.header ul{
+    display: flex;
+    font-size: 1rem;
+    gap: 15px;
+}
+
+.website-description {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 5px;
+}
+
+h1, h3, p {
+    padding: 0;
+    margin: 0;
+}
+
+/* h1 {
+    line-height: 25px;
+} */
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding: 25px;
+    text-align: center;
+}
+
+.section-two img {
+    border: 2px solid violet;
+    width: 120px;
+    height: 200px;
+    align-self: center;
+    
+}
+
+.section-three {
+    display: flex;
+    background-color: hsl(220deg 13% 91%);
+    padding-top: 20px;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    gap: 10px;
+}
+
+.section-three ul {
+    display: flex;
+    gap: 15px;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: auto;
+    padding: 10px;
+    background-color: hsl(215deg 28% 17%);
+    font-size: 0.5rem;
+}
+
+
